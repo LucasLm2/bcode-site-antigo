@@ -7,21 +7,21 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<div class="slider" style="background-image: url('<?php echo INCLUDE_PATH_PAINEL ?>uploads/slide01.jpg')"></div>
+				<div class="slider" style="background-image: url('<?php echo INCLUDE_PATH_SITE ?>imgs/slide01.jpg')"></div>
 				<div class="carousel-caption d-block content-slider text-left">
 					<h5>Desenvolvemos Sistemas para você sob medida</h5>
 	  				<h1>Sistemas personalizados</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<div class="slider" style="background-image: url('<?php echo INCLUDE_PATH_PAINEL ?>uploads/slide03.jpg')"></div>
+				<div class="slider" style="background-image: url('<?php echo INCLUDE_PATH_SITE ?>imgs/slide03.jpg')"></div>
 				<div class="carousel-caption d-block content-slider text-left">
 	  				<h5>Criamos seu Site com Painel de Gerenciamento</h5>
 	  				<h1>Sites 100% Dinâmicos</h1>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<div class="slider" style="background-image: url('<?php echo INCLUDE_PATH_PAINEL ?>uploads/slide02.jpg')"></div>
+				<div class="slider" style="background-image: url('<?php echo INCLUDE_PATH_SITE ?>imgs/slide02.jpg')"></div>
 				<div class="carousel-caption d-block content-slider text-left">
 	  				<h5>Você pode prender de qualquer lugar</h5>
 	  				<h1>Treinamentos Online</h1>
@@ -36,7 +36,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6">
-				<img src="<?php echo INCLUDE_PATH_PAINEL ?>uploads/sobre-nos.png" alt="">
+				<img src="<?php echo INCLUDE_PATH_SITE ?>imgs/sobre-nos.png" alt="">
 			</div>
 			<div class="col-lg-6 text-justify">
 				<h1 class="">Somos uma empresa voltada ao ensino e desevolvimento de soluções em T.I.</h1>

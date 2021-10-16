@@ -40,7 +40,7 @@
 			<div class="container">
 					<a class="logo color-white-9-bcode logo-border-white-9" href="<?php echo INCLUDE_PATH_SITE ?>">
 						<span class="logo-princ font-alfaslabone">BCODE</span>
-						<span class="logo-sub bg-white-9-bcode color-black-bcode"> Solutions</span>
+						<span class="logo-sub bg-white-9-bcode color-black-bcode">Soluções</span>
 					</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -67,7 +67,6 @@
 	</header>
 
 	<?php
-		
 		if (file_exists('pages/'.$url.'.php')) {
 			include('pages/'.$url.'.php');
 			$pagina404 = false;	

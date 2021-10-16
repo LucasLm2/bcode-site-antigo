@@ -5,6 +5,6 @@
 			<h2>Página em construção</h2>
 			<h3>Desculpe pelo transtorno, estamos trabalhando para melhor atendê-los!</h3>
 			<p>Volte para a <a href="<?php echo INCLUDE_PATH_SITE; ?>">página principal</a>.</p>
-		</div><!--center-->
+		</div>
 	</section>
 </div>
