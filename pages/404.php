@@ -5,6 +5,6 @@
 			<h2>Erro 404</h2>
 			<h3>Esta página não existe!</h3>
 			<p>Volte para a <a href="<?php echo INCLUDE_PATH_SITE; ?>">página principal</a>.</p>
-		</div><!--center-->
+		</div>
 	</section>
 </div>
