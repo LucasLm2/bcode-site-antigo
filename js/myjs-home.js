@@ -78,22 +78,22 @@ function scrollSectionMenu(){
 function formularios(){
 	
 	$('body').on('submit', 'form', function(){
-		try{
-			var form = $(this);
-			$.ajax({
-				url: include_path+'enviar.php',
-				method: 'post',
-				dataType: 'json',
-				data: form.serialize()
-			})
-			alert('Mensagem enviada com sucesso');
-			form.each(function(){
-				this.reset();
-			})
-			return false;
-		} catch(e){
-			alert(e);
-		}
-		
+		// try{
+		// 	var form = $(this);
+		// 	$.ajax({
+		// 		url: include_path+'enviar.php',
+		// 		method: 'post',
+		// 		dataType: 'json',
+		// 		data: form.serialize()
+		// 	})
+		// 	alert('Mensagem enviada com sucesso');
+		// 	form.each(function(){
+		// 		this.reset();
+		// 	})
+		// 	return false;
+		// } catch(e){
+		// 	alert(e);
+		// }
+		alert('Você esta na demonstração do site, o envio de formulário esta desabilitado.');		
 	});
 }
